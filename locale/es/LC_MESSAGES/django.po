@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-07 16:53-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: basesite/settings.py:138
+msgid "Espanish"
+msgstr "Español"
+
+#: basesite/settings.py:139
+msgid "English"
+msgstr "Inglés"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/footer.html:3
+msgid "footer"
+msgstr "Pie de página"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/index.html:3
+msgid "Start page of jucapoco App"
+msgstr "Página de inicio de jucapoco App"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/index.html:8
+msgid "Home Page"
+msgstr "Página de inicio"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/index.html:9
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/index.html:11
+msgid "Sign Out"
+msgstr "Cerrar sesión"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:18
+msgid "Home"
+msgstr "Inicio"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:21
+msgid "Base App"
+msgstr "Aplicación base"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:24
+msgid "Index view"
+msgstr "Índice"
+
+#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:42
+msgid "Change"
+msgstr "Cambiar"

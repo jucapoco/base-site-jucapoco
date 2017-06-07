@@ -1,0 +1,18 @@
+{% extends "jcvrbaseapp/base_view.html" %}
+{% load i18n %}
+{% block title %}{% trans 'Start page of jucapoco App' %}{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">{% trans 'Home Page' %}</h1>
+            <p>{% trans 'Welcome' %} {{ user.username }} !!!</p>
+            {% if user.is_authenticated %}
+            <a href="{% url 'account_logout' %}">{% trans 'Sign Out' %}</a>
+            {% endif %}
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+</div>
+{% endblock content %}

@@ -21,7 +21,10 @@
 				<a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> {% trans 'Base App' %}<span class="fa arrow"></span></a>
 				<ul class="nav nav-second-level">
 					<li>
-						<a href="{% static 'bootstrapadmin2/pages/flot.html' %}">{% trans 'Index view' %}</a>
+						<a href="{% url 'base_view' %}">{% trans 'Home' %}</a>
+					</li>
+					<li>
+						<a href="{% static 'bootstrapadmin2/index.html' %}">{% trans 'Bootstrap view' %}</a>
 					</li>
 				</ul>
 				<!-- /.nav-second-level -->

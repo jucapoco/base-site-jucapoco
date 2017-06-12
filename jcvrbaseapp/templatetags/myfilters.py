@@ -4,6 +4,7 @@ from django import template
 from django.template.defaultfilters import stringfilter
 import logging
 import html.parser
+from django.contrib.auth.models import Group
 
 
 register = template.Library()
@@ -74,3 +75,9 @@ def pretty_checkbox(value):
     html_parser = html.parser.HTMLParser()
     unescaped = html_parser.unescape(output)
     return unescaped
+
+
+@register.filter(name='has_group')
+def has_group(user, group_name):
+    group = Group.objects.get(name=group_name)
+    return group in user.groups.all()

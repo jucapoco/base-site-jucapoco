@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 20:18-0500\n"
+"POT-Creation-Date: 2017-06-12 11:53-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgid "Register Base Application"
 msgstr "Aplicación base de registro"
 
 #: jcvrbaseapp/templates/account/base.html:67
-#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:42
+#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:45
 msgid "Change"
 msgstr "Cambiar"
 
@@ -242,6 +242,7 @@ msgid "Are you sure you want to sign out?"
 msgstr "Está seguro que quiere cerrar sesión?"
 
 #: jcvrbaseapp/templates/account/logout.html:16
+#: jcvrbaseapp/templates/jcvrbaseapp/header.html:85
 #: jcvrbaseapp/templates/jcvrbaseapp/index.html:11
 msgid "Sign Out"
 msgstr "Cerrar sesión"
@@ -451,6 +452,10 @@ msgstr ""
 msgid "footer"
 msgstr "Pie de página"
 
+#: jcvrbaseapp/templates/jcvrbaseapp/header.html:89
+msgid "Administration Console"
+msgstr "Consola de administración"
+
 #: jcvrbaseapp/templates/jcvrbaseapp/index.html:3
 msgid "Start page of jucapoco App"
 msgstr "Página de inicio de jucapoco App"
@@ -464,6 +469,7 @@ msgid "Welcome"
 msgstr "Bienvenido"
 
 #: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:18
+#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:24
 msgid "Home"
 msgstr "Inicio"
 
@@ -471,9 +477,9 @@ msgstr "Inicio"
 msgid "Base App"
 msgstr "Aplicación base"
 
-#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:24
-msgid "Index view"
-msgstr "Índice"
+#: jcvrbaseapp/templates/jcvrbaseapp/left-menu.html:27
+msgid "Bootstrap view"
+msgstr "Vista Bootstrap"
 
 #: jcvrbaseapp/templates/socialaccount/authentication_error.html:5
 #: jcvrbaseapp/templates/socialaccount/authentication_error.html:8
@@ -554,3 +560,6 @@ msgstr ""
 #: jcvrbaseapp/templates/socialaccount/snippets/provider_list.html:20
 msgid "Sign in with Google"
 msgstr "Inicie sesión con Google"
+
+#~ msgid "Index view"
+#~ msgstr "Índice"

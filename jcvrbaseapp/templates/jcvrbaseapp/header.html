@@ -81,8 +81,14 @@
             <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
             </li>
             <li class="divider"></li>
-            <li><a href="{% static 'bootstrapadmin2/pages/login.html' %}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+            <li><a href="{% url 'account_logout' %}"><i class="fa fa-sign-out fa-fw"></i> 
+            {% trans 'Sign Out' %}</a>
             </li>
+            {% if user.is_active and user.is_staff %}
+            <li><a href="{% url 'admin:index' %}"><i class="fa fa-gears fa-fw"></i> 
+            {% trans 'Administration Console' %}</a>
+            </li>
+            {% endif %}
         </ul>
         <!-- /.dropdown-user -->
     </li>
